@@ -80,7 +80,7 @@ private RecyclerView.OnScrollListener lis =new RecyclerView.OnScrollListener(){
         public void setNewsList(List<NetEase> neteaseNews) {
             Log.d("xhttp", "setNewsList: "+neteaseNews.size());
             mNetEaseAdapter = new NetEaseAdapter(neteaseNews);
-            mRecyclerview1.setAdapter(mNetEaseAdapter);
+             mRecyclerview1.setAdapter(mNetEaseAdapter);
             mLayoutManager =new LinearLayoutManager(MainActivity.this);
             mRecyclerview1.setLayoutManager(mLayoutManager);
 
